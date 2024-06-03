@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Altura de la tarjeta grande en píxeles -->
+    <dimen name="large_card_height">300dp</dimen>
+    <!-- Altura de la tarjeta normal en píxeles -->
+    <dimen name="normal_card_height">200dp</dimen>
+    <dimen name="grid_spacing">2dp</dimen>
+    <!--  -->
+    <dimen name="small_spacing">2dp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TablerosFinal" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/clay_red</item>
+        <item name="colorPrimaryDark">@color/taupe</item>
+        <item name="colorAccent">@color/taupe</item>
+        <item name="android:statusBarColor">@color/slate_gray</item>
+        <item name="android:navigationBarColor">@color/clay_red</item>
+    </style>
+
+    <style name="Theme.TablerosFinal" parent="Base.Theme.TablerosFinal" />
+</resources>

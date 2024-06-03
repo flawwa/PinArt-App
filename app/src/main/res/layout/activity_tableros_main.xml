@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Título principal "PinArt" -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PinArt"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp" />
+
+    <!-- Línea separadora -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"/>
+
+    <!-- Contenedor para "Tus tableros" y botón "Crear tablero" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <!-- Texto "Tus tableros" -->
+        <TextView
+            android:id="@+id/yourBoardsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotoslab_regular"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Tus tableros"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <!-- Botón "Crear tablero" -->
+        <Button
+            android:id="@+id/createBoardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:fontFamily="@font/robotoslab_regular"
+            android:text="Crear tablero" />
+    </LinearLayout>
+
+    <!-- RecyclerView para mostrar los tableros -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tablerosRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"/>
+
+    <!-- BottomNavigationView -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</LinearLayout>

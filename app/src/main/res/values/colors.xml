@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="earth_brown">#5D4037</color> <!-- Un marrón profundo, que recuerda a la tierra y la madera, ideal para fondos o elementos de diseño gráfico. -->
+    <color name="clay_red">#972E0E</color>   <!-- Un rojo arcilla oscuro, perfecto para acentos llamativos sin ser demasiado brillante. -->
+    <color name="mustard_yellow">#AF8505</color> <!-- Un amarillo mostaza suave, proporciona un toque de luz y energía a la paleta. -->
+    <color name="olive_green">#536C1F</color>  <!-- Un verde oliva, que complementa bien a los tonos tierra y añade un toque de naturaleza. -->
+    <color name="taupe">#483C32</color>        <!-- Taupe es un tono neutro que funciona bien para fondos y elementos de UI para no distraer de las imágenes artísticas. -->
+    <color name="ivory">#FFFFF0</color>        <!-- Marfil, una alternativa al blanco puro, suave y fácil para los ojos, ideal para fondos de texto y UI. -->
+    <color name="slate_gray">#708090</color>   <!-- Un gris pizarra, elegante y discreto, perfecto para textos y componentes de la interfaz de usuario. -->
+    <color name="rust_red">#8B0000</color>
+    <color name="black">#000000</color>
+    <color name="gray">#61494949</color>
+
+</resources>
